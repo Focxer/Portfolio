@@ -1,0 +1,5 @@
+export { default as Img } from './Img'
+export { default as Tittle } from './Tittle'
+export { default as Text } from './Text'
+export { default as Linguagens } from './Linguagens'
+export { default as Projetos } from './Projetos'
