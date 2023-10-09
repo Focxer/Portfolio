@@ -3,7 +3,7 @@ import { Img, Tittle, Text, Linguagens, Projetos } from '../components/main'
 function Main() {
   return (
     <>
-      <div id='__sobremim' className='flex justify-around gap-4 mt-2 mb-10 bg-zinc-50 shadow-lg flex-wrap lg:flex-nowrap scroll-m-16'>
+      <div id='__sobremim' className='flex justify-around gap-4 pt-2 mb-10 bg-zinc-50 shadow-lg flex-wrap lg:flex-nowrap scroll-m-16'>
         <Img />
 
         <div className='flex flex-col items-center xl:items-start justify-center gap-8 pb-8'>
