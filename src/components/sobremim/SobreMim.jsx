@@ -1,4 +1,4 @@
-import Logo from '../../assets/main-image.png'
+import Logo from '../../assets/main-image.webp'
 import { Download, Github, LinkedinIcon, MailIcon } from 'lucide-react'
 
 function SobreMim() {

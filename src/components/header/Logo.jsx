@@ -1,4 +1,4 @@
-import icon from '../../assets/header-icon.png'
+import icon from '../../assets/header-icon.webp'
 
 function Logo() {
   return (
