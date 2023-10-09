@@ -28,13 +28,12 @@ function SobreMim() {
             </p>
 
             <p>
-              Fiz{' '}
               <span className="font-semibold">
                 Técnico em Informática para Internet
               </span>{' '}
               na ETEC Lauro Gomes e lá aprendi um pouco sobre{' '}
               <span className="font-semibold">Front-End e Back-End,</span> fui
-              Webmaster no meu TCC e o tema foi E-Commerce.
+              Desenvolvedor Full-stack no meu TCC e o tema foi E-Commerce.
             </p>
 
             <div className="flex gap-2 mt-4 flex-wrap xl:flex-nowrap justify-center lg:justify-start">
