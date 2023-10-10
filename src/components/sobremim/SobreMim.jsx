@@ -10,8 +10,8 @@ function SobreMim() {
       >
         <img src={Logo} alt="Main image" className="w-1/2 rounded-lg" />
 
-        <div className="flex flex-col items-center xl:items-start justify-center gap-8 pb-8">
-          <h1 className="text-4xl mb-4 font-bold text-zinc-800">Olá_mundo!</h1>
+        <div className="flex flex-col items-center lg:items-start justify-center gap-8 pb-8 mt-4">
+          <h1 className="text-4xl font-bold text-zinc-800">Olá_mundo!</h1>
 
           <div className="divide-y-8 divide-transparent text-zinc-800 text-md w-2/3">
             <p>
