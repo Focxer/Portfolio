@@ -2,14 +2,13 @@ import { Menu, X } from 'lucide-react'
 import Logo from '../../components/header/Logo'
 import { HashLink } from 'react-router-hash-link'
 
-function menuOpen() {
-  document
-    .getElementById('navBurger')
-    .setAttribute('class', 'left-0 top-0 absolute h-72 w-screen bg-violet-500')
-}
-
-function menuClose() {
-  document.getElementById('navBurger').setAttribute('class', 'hidden')
+function menuToggle() {
+  const menu = document.getElementById('navBurger')
+  if (menu.classList.contains('hidden')) {
+    menu.classList.remove('hidden')
+  } else {
+    menu.classList.add('hidden')
+  }
 }
 
 function Navbar() {
@@ -32,7 +31,7 @@ function Navbar() {
 
       <nav className="md:hidden">
         <div>
-          <Menu onClick={menuOpen} />
+          <Menu onClick={menuToggle} />
         </div>
       </nav>
 
@@ -42,12 +41,12 @@ function Navbar() {
       >
         <div className="bg-white flex justify-between px-6 py-2 items-center">
           <Logo />
-          <X onClick={menuClose} />
+          <X onClick={menuToggle} />
         </div>
 
         <nav
           className="flex flex-col text-zinc-50 font-semibold divide-y-2 divide-violet-300 shadow-xl"
-          onClick={menuClose}
+          onClick={menuToggle}
         >
           <HashLink
             smooth
