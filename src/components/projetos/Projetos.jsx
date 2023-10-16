@@ -14,6 +14,7 @@ function Projetos() {
             <iframe
               src="https://focxer.github.io/Rhowert/"
               className="rounded-xl w-full h-[600px] shadow-md p-2"
+              loading="lazy"
             ></iframe>
           </div>
 
