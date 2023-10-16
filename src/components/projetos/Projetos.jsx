@@ -1,9 +1,5 @@
-/* import rhowert from '../../assets/projetos/rhowert.png' */
-
 import { Link } from 'react-router-dom'
 import { ExternalLink, Layers } from 'lucide-react'
-
-/* import { Code2, Link } from "lucide-react" */
 
 function Projetos() {
   return (
@@ -17,7 +13,7 @@ function Projetos() {
           <div className="rounded-xl border-2 border-zinc-200">
             <iframe
               src="https://focxer.github.io/Rhowert/"
-              className="rounded-xl w-full h-96 shadow-md p-2"
+              className="rounded-xl w-full h-[600px] shadow-md p-2"
             ></iframe>
           </div>
 
@@ -37,13 +33,13 @@ function Projetos() {
                 href="https://focxer.github.io/Rhowert/"
                 target="_blank"
                 rel="noreferrer"
-                className="bg-violet-400 rounded-lg flex items-center gap-2 text-zinc-50 font-semibold py-2 px-4 hover:bg-violet-300 shadow-md w-full md:w-auto"
+                className="bg-violet-400 rounded-lg flex items-center gap-2 text-zinc-50 font-semibold py-2 px-4 hover:bg-violet-500 shadow-md w-full md:w-auto duration-200 hover:scale-105"
               >
                 <ExternalLink /> Ver projeto
               </a>
               <Link
                 to="/projetos"
-                className="bg-zinc-400 rounded-lg flex items-center gap-2 text-zinc-50 font-semibold py-2 px-4 hover:bg-zinc-500 shadow-md w-full md:w-auto"
+                className="bg-zinc-400 rounded-lg flex items-center gap-2 text-zinc-50 font-semibold py-2 px-4 hover:bg-zinc-500 shadow-md w-full md:w-auto duration-200 hover:scale-105"
               >
                 <Layers /> Todos os projetos
               </Link>

@@ -1,6 +1,7 @@
 import { SobreMim } from '../components/sobremim'
 import { Linguagens } from '../components/linguagens'
 import { Projetos } from '../components/projetos'
+import { Contato } from '../components/contato'
 
 function Main() {
   return (
@@ -15,6 +16,10 @@ function Main() {
 
       <div id="__projetos" className="mb-10 scroll-m-14">
         <Projetos />
+      </div>
+
+      <div id="__contato" className="mb-10 scroll-m-14">
+        <Contato />
       </div>
     </>
   )
