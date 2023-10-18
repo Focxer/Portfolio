@@ -10,10 +10,10 @@ function Projetos() {
         </div>
 
         <div className="grid grid-cols-1 xl:grid-cols-2 justify-between lg gap-8 pb-10 bg-zinc-100 rounded-xl shadow-xl p-4">
-          <div className="rounded-xl border-2 border-zinc-200">
+          <div className="border-2 border-zinc-500">
             <iframe
               src="https://focxer.github.io/Rhowert/"
-              className="rounded-xl w-full h-[600px] shadow-md p-2"
+              className="w-full h-[400px] shadow-md"
               loading="lazy"
             ></iframe>
           </div>
@@ -23,8 +23,8 @@ function Projetos() {
             <p>
               Novo design para o site da empresa Rhowert. Utilizei HTML e CSS,
               foi uma proposta feita por mim após notar a necessidade de
-              responsividade e alteração nas cores sem fugir do padrão das cores
-              da empresa.
+              responsividade e alteração no contraste sem fugir do padrão das
+              cores da empresa.
             </p>
 
             <div className="flex flex-col sm:flex-row justify-center xl:justify-start gap-2 items-center mt-6 w-full">
