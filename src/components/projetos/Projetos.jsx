@@ -5,15 +5,15 @@ function Projetos() {
   return (
     <>
       <div className="bg-zinc-100 rounded-b-lg">
-        <div className="bg-violet-400 flex justify-center items-center font-semibold text-zinc-50 text-2xl pb-2 pt-4 px-4 mb-4 rounded-t-lg">
+        <div className="bg-violet-400 flex justify-center items-center font-semibold text-zinc-50 text-2xl p-4 mb-4 rounded-t-xl">
           <h2>Projetos</h2>
         </div>
 
-        <div className="grid grid-cols-1 xl:grid-cols-2 justify-between lg gap-8 pb-10 bg-zinc-100 rounded-xl shadow-xl p-4">
-          <div className="border-2 border-zinc-500">
+        <div className="grid grid-cols-1 xl:grid-cols-2 justify-between lg gap-8 bg-zinc-100 rounded-xl p-4">
+          <div className="border-2 border-zinc-200 shadow-md">
             <iframe
               src="https://focxer.github.io/Rhowert/"
-              className="w-full h-[400px] shadow-md"
+              className="w-full h-[400px]"
               loading="lazy"
             ></iframe>
           </div>

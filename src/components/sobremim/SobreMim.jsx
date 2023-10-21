@@ -6,7 +6,7 @@ function SobreMim() {
     <>
       <div
         id="__sobremim"
-        className="flex justify-around gap-4 pt-2 mb-10 bg-zinc-50 shadow-lg flex-wrap lg:flex-nowrap scroll-m-16 px-4 lg:px-0"
+        className="flex justify-around gap-4 pt-2 bg-zinc-50 shadow-lg flex-wrap lg:flex-nowrap scroll-m-16 px-4 lg:px-0"
       >
         <img
           src={Logo}

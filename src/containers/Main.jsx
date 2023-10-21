@@ -6,19 +6,19 @@ import { Contato } from '../components/contato'
 function Main() {
   return (
     <>
-      <div className="scroll-m-14 mb-10">
+      <div className="mb-4 scroll-m-14">
         <SobreMim />
       </div>
 
-      <div id="__linguagens" className="scroll-m-14 mb-10">
+      <div id="__linguagens" className="mb-4 scroll-m-14">
         <Linguagens />
       </div>
 
-      <div id="__projetos" className="mb-10 scroll-m-14">
+      <div id="__projetos" className="mb-4 scroll-m-14">
         <Projetos />
       </div>
 
-      <div id="__contato" className="mb-10 scroll-m-14">
+      <div id="__contato" className="mb-4 scroll-m-14">
         <Contato />
       </div>
     </>
