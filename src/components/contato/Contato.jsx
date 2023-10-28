@@ -43,7 +43,7 @@ function Contato() {
               id="userSubmit"
               type="submit"
               value="Enviar"
-              className="bg-violet-400 hover:bg-violet-500 cursor-pointer p-4 text-white font-semibold text-xl rounded-lg shadow-xl hover:scale-105 duration-200"
+              className="bg-violet-400 hover:bg-violet-500 cursor-pointer p-4 text-white font-semibold text-xl rounded-md shadow-xl hover:-translate-y-1 duration-200"
             />
           </div>
         </form>

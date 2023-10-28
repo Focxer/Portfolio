@@ -32,13 +32,13 @@ function Projetos() {
                 href="https://focxer.github.io/Rhowert/"
                 target="_blank"
                 rel="noreferrer"
-                className="bg-violet-400 rounded-lg flex items-center justify-center gap-2 text-zinc-50 font-semibold py-2 px-4 hover:bg-violet-500 shadow-md w-full md:w-auto duration-200 hover:scale-105"
+                className="bg-violet-400 rounded-md flex items-center justify-center gap-2 text-zinc-50 font-semibold py-2 px-4 hover:bg-violet-500 shadow-md w-full md:w-auto duration-200 hover:-translate-y-1"
               >
                 <ExternalLink /> Ver projeto
               </a>
               <Link
                 to="/projetos"
-                className="bg-zinc-400 rounded-lg flex items-center justify-center gap-2 text-zinc-50 font-semibold py-2 px-4 hover:bg-zinc-500 shadow-md w-full md:w-auto duration-200 hover:scale-105"
+                className="bg-zinc-400 rounded-md flex items-center justify-center gap-2 text-zinc-50 font-semibold py-2 px-4 hover:bg-zinc-500 shadow-md w-full md:w-auto duration-200 hover:-translate-y-1"
               >
                 <Layers /> Todos os projetos
               </Link>

@@ -15,16 +15,32 @@ function Navbar() {
   return (
     <>
       <nav className="hidden md:flex gap-4 text-zinc-500 font-semibold">
-        <HashLink smooth to="#__sobremim" className="hover:text-violet-400">
+        <HashLink
+          smooth
+          to="#__sobremim"
+          className="hover:text-violet-400 duration-200"
+        >
           Sobre mim
         </HashLink>
-        <HashLink smooth to="#__linguagens" className="hover:text-violet-400">
+        <HashLink
+          smooth
+          to="#__linguagens"
+          className="hover:text-violet-400 duration-200"
+        >
           Linguagens
         </HashLink>
-        <HashLink smooth to="#__projetos" className="hover:text-violet-400">
+        <HashLink
+          smooth
+          to="#__projetos"
+          className="hover:text-violet-400 duration-200"
+        >
           Projetos
         </HashLink>
-        <HashLink smooth to="#__contato" className="hover:text-violet-400">
+        <HashLink
+          smooth
+          to="#__contato"
+          className="hover:text-violet-400 duration-200"
+        >
           Fale comigo
         </HashLink>
       </nav>

@@ -70,9 +70,9 @@ function SobreMim() {
               </a>
             </div>
 
-            <div className="mt-4 flex justify-center lg:justify-start">
+            <div className="mt-4 flex justify-center lg:justify-start animate-bounce">
               <a
-                href="https://drive.google.com/file/d/1RaczEghhlWWC4GLf7k9UZ28xLIhwWNvR/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1RaczEghhlWWC4GLf7k9UZ28xLIhwWNvR/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
                 className="flex gap-1 items-center text-blue-400 hover:text-blue-600 w-fit"
