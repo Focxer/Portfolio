@@ -1,0 +1,10 @@
+.init-hidden{
+    opacity: 0;
+    transition: all 1s;
+    transform: scale(.95) rotateZ(2deg) translate(5%, 1%);
+}
+
+.init-hidden-off{
+    opacity: 1;
+    transform: scale(1) rotateZ(0deg) translate(0%, 0%);
+}
