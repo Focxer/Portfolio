@@ -9,7 +9,7 @@ function Observer() {
           entry.target.classList.toggle('init-hidden-off', entry.isIntersecting)
         })
       },
-      { threshold: 0.2 },
+      { threshold: 0.3 },
     )
 
     elements.forEach((e) => {

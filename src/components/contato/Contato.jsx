@@ -9,7 +9,7 @@ function Contato() {
           method="post"
           className="flex flex-col items-center justify-center gap-8 pb-8 mt-4 w-full"
         >
-          <h1 className="text-4xl lg:text-6xl font-bold font-pacifico text-violet-500">
+          <h1 className="init-hidden text-4xl lg:text-6xl font-bold font-pacifico text-violet-500">
             Fale comigo!
           </h1>
 
@@ -50,7 +50,7 @@ function Contato() {
         <img
           src={Logo}
           alt="Main image"
-          className="w-full lg:w-1/2 rounded-lg"
+          className="init-hidden w-full lg:w-1/2 rounded-lg"
         />
       </div>
     </>

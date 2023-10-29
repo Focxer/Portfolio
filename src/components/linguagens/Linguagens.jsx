@@ -42,7 +42,7 @@ function Linguagens() {
               montava no Front-end.
             </p>
           </div>
-          <div className="init-hidden flex flex-col items-center gap-2 bg-white p-8 rounded-lg shadow-md hover:scale-105 duration-150">
+          <div className="init-hidden flex flex-col items-center gap-1 bg-white px-8 py-6 rounded-lg shadow-md hover:scale-105 duration-150">
             <img src={mysql} alt="MySQL icon" />
             <p>
               MySQL foi o banco de dados escolhido para o desenvolvimento do meu
@@ -50,7 +50,7 @@ function Linguagens() {
             </p>
           </div>
           <div className="init-hidden flex flex-col items-center gap-4 bg-white p-8 rounded-lg shadow-md hover:scale-105 duration-150">
-            <img src={react} alt="React icon" className="h-14 mt-2 mb-4" />
+            <img src={react} alt="React icon" className="h-14 mt-2 mb-2" />
             <p>
               Atualmente, estou estudando React e migrando meus conceitos. Este
               projeto está sendo desenvolvido em React com Tailwind.

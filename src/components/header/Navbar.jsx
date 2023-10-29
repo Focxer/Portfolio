@@ -18,28 +18,28 @@ function Navbar() {
         <HashLink
           smooth
           to="#__sobremim"
-          className="hover:text-violet-400 duration-200"
+          className="hover:text-violet-400 duration-500"
         >
           Sobre mim
         </HashLink>
         <HashLink
           smooth
           to="#__linguagens"
-          className="hover:text-violet-400 duration-200"
+          className="hover:text-violet-400 duration-500"
         >
           Linguagens
         </HashLink>
         <HashLink
           smooth
           to="#__projetos"
-          className="hover:text-violet-400 duration-200"
+          className="hover:text-violet-400 duration-500"
         >
           Projetos
         </HashLink>
         <HashLink
           smooth
           to="#__contato"
-          className="hover:text-violet-400 duration-200"
+          className="hover:text-violet-400 duration-500"
         >
           Fale comigo
         </HashLink>
