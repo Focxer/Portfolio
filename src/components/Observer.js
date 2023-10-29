@@ -3,13 +3,14 @@ import { useEffect } from 'react'
 function Observer() {
   useEffect(() => {
     const elements = document.querySelectorAll('.init-hidden')
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        entry.isIntersecting
-          ? entry.target.classList.add('init-hidden-off')
-          : console.log('init-hidden')
-      })
-    })
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          entry.target.classList.toggle('init-hidden-off', entry.isIntersecting)
+        })
+      },
+      { threshold: 0.2 },
+    )
 
     elements.forEach((e) => {
       observer.observe(e)
