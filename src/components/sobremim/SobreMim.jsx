@@ -11,7 +11,7 @@ function SobreMim() {
         <img
           src={Logo}
           alt="Main image"
-          className="init-hidden w-full md:w-1/2 rounded-lg"
+          className="init-hidden w-full h-full md:max-w-[480px] max-h-[480px] rounded-lg"
         />
 
         <div className="flex flex-col items-center lg:items-start justify-center gap-8 pb-8 lg:px-8 mt-4">

@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { ExternalLink, Layers } from 'lucide-react'
+import Logo from '../../assets/projects.webp'
 
 function Projetos() {
   return (
@@ -9,13 +10,13 @@ function Projetos() {
           <h2>Projetos</h2>
         </div>
 
-        <div className="grid grid-cols-1 xl:grid-cols-2 justify-between lg gap-8 bg-zinc-100 rounded-xl p-4">
-          <div className="border-2 border-zinc-200 shadow-md">
-            <iframe
-              src="https://focxer.github.io/Rhowert/"
-              className="w-full h-[400px]"
-              loading="lazy"
-            ></iframe>
+        <div className="grid grid-cols-1 lg:grid-cols-2 justify-between lg gap-8 bg-zinc-100 rounded-xl p-4">
+          <div className="flex justify-center">
+            <img
+              src={Logo}
+              alt="Imagem dos projetos"
+              className="w-full h-full md:max-w-[480px] max-h-[480px]"
+            />
           </div>
 
           <div className="flex flex-col justify-center items-center xl:items-start gap-4 text-zinc-800">
@@ -27,7 +28,7 @@ function Projetos() {
               cores da empresa.
             </p>
 
-            <div className="flex flex-col sm:flex-row justify-center xl:justify-start gap-2 items-center mt-6 w-full">
+            <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-2 items-center mt-6 w-full">
               <a
                 href="https://focxer.github.io/Rhowert/"
                 target="_blank"
