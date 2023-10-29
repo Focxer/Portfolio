@@ -3,7 +3,7 @@ import Logo from '../../assets/getintouch.webp'
 function Contato() {
   return (
     <>
-      <div className="bg-zinc-100 shadow-lg p-4 flex flex-col lg:flex-row items-center lg:items-center lg:justify-around">
+      <div className="bg-zinc-50 shadow-lg p-4 pb-8 flex flex-col lg:flex-row items-center lg:items-center lg:justify-around">
         <form
           action="https://formsubmit.co/focxer@hotmail.com"
           method="post"

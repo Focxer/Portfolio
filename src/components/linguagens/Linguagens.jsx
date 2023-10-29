@@ -8,7 +8,7 @@ import react from '../../assets/linguagens-icons/react.svg'
 function Linguagens() {
   return (
     <>
-      <div className="bg-zinc-100 rounded-b-lg pb-4 hover:cursor-default">
+      <div className="bg-zinc-50 shadow-lg rounded-b-lg pb-4 hover:cursor-default">
         <div className="bg-violet-400 flex justify-center items-center font-semibold text-zinc-50 text-2xl p-4 mb-4 rounded-t-xl">
           <h2 className="text-center">Linguagens e Tecnologias</h2>
         </div>
