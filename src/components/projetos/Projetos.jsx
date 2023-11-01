@@ -21,7 +21,7 @@ function Projetos() {
 
           <div className="flex flex-col justify-center items-center xl:items-start gap-4 text-zinc-800">
             <h2 className="text-3xl mb-4 font-bold">Último_projeto!</h2>
-            <p>
+            <p className="text-sm md:text-base">
               Novo design para o site da empresa Rhowert. Utilizei HTML e CSS,
               foi uma proposta feita por mim após notar a necessidade de
               responsividade e alteração no contraste sem fugir do padrão das

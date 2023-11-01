@@ -17,7 +17,7 @@ function SobreMim() {
         <div className="flex flex-col items-center lg:items-start justify-center gap-8 pb-8 lg:px-8 mt-4">
           <h1 className="text-4xl font-bold text-zinc-800">Olá_mundo!</h1>
 
-          <div className="divide-y-8 divide-transparent text-zinc-800 w-full">
+          <div className="divide-y-8 divide-transparent text-zinc-800 w-full text-sm md:text-base">
             <p>
               Meu nome é Bruno, tenho 24 anos e sou{' '}
               <span className="font-semibold">Desenvolvedor Web.</span>
@@ -26,18 +26,16 @@ function SobreMim() {
             <p>
               Atualmente estou estudando{' '}
               <span className="font-semibold">React e Tailwind.</span> Este
-              projeto é o resultado do meu atual conhecimento, estou em busca da
-              minha primeira oportunidade no mercado para aperfeiçoar minhas
-              habilidades e me desenvolver na área.
+              projeto é o resultado do meu conhecimento.
             </p>
 
             <p>
               <span className="font-semibold">
                 Técnico em Informática para Internet
               </span>{' '}
-              na ETEC Lauro Gomes e lá aprendi um pouco sobre{' '}
-              <span className="font-semibold">Front-End e Back-End,</span> fui
-              Desenvolvedor Full-stack no meu TCC e o tema foi E-Commerce.
+              na ETEC Lauro Gomes e fui Desenvolvedor{' '}
+              <span className="font-semibold">Full-stack</span> do meu TCC com o
+              tema de E-Commerce.
             </p>
 
             <div className="flex gap-2 mt-4 flex-wrap xl:flex-nowrap justify-center lg:justify-start">
