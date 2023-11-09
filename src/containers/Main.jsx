@@ -9,19 +9,19 @@ function Main() {
   Observer()
   return (
     <>
-      <div className="mb-6 scroll-m-14">
+      <div className="mb-6">
         <SobreMim />
       </div>
 
-      <div id="__linguagens" className="mb-4 scroll-m-14">
+      <div id="__linguagens" className="scroll-m-16">
         <Linguagens />
       </div>
 
-      <div id="__projetos" className="mb-6 scroll-m-14">
+      <div id="__projetos" className="mb-6 scroll-m-16">
         <Projetos />
       </div>
 
-      <div id="__contato" className="mb-4 scroll-m-14">
+      <div id="__contato" className="mb-4 scroll-m-16">
         <Contato />
       </div>
     </>
