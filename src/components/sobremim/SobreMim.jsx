@@ -15,11 +15,11 @@ function SobreMim() {
         />
 
         <div className="flex flex-col items-center lg:items-start justify-center gap-8 pb-8 lg:px-8 mt-4 font-medium">
-          <h1 className="text-4xl font-bold text-zinc-800">Olá_mundo!</h1>
+          <h1 className="text-4xl font-bold text-zinc-800">Olá mundo!</h1>
 
           <div className="divide-y-8 divide-transparent text-zinc-800 text-sm md:text-base">
             <p>
-              Meu nome é Bruno, tenho 24 anos e sou{' '}
+              Meu nome é Bruno, tenho 25 anos e sou{' '}
               <span className="font-semibold">Desenvolvedor Web.</span>
             </p>
 
