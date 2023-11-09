@@ -5,14 +5,14 @@ import Logo from '../../assets/projects.webp'
 function Projetos() {
   return (
     <>
-      <div className="bg-white mx-4 pb-8 px-4">
+      <div className="bg-white mx-4 pb-8">
         <div className="flex justify-center items-center bg-violet-400">
           <h2 className="text-center font-semibold text-white text-lg md:text-3xl p-4">
             Projetos em Destaque
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 lg gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 lg gap-8 mx-4">
           <div className="init-left flex justify-center">
             <img
               src={Logo}
