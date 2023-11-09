@@ -1,32 +1,26 @@
 import Logo from '../../assets/main-image.webp'
-import { Download, Github, LinkedinIcon, MailIcon } from 'lucide-react'
+import Socials from './Socials.jsx'
 
 function SobreMim() {
   return (
     <>
       <div
         id="__sobremim"
-        className="flex justify-around gap-4 pt-2 bg-zinc-50 shadow-lg flex-wrap lg:flex-nowrap scroll-m-16 px-4 lg:px-0"
+        className="grid grid-cols-1 lg:grid-cols-2 justify-between gap-4 scroll-m-16 px-4 lg:px-0 bg-white mx-4"
       >
         <img
           src={Logo}
           alt="Main image"
-          className="init-hidden w-full h-full md:max-w-[480px] max-h-[480px] rounded-lg"
+          className="init-left w-full h-full md:max-w-[480px] max-h-[480px]"
         />
 
-        <div className="flex flex-col items-center lg:items-start justify-center gap-8 pb-8 lg:px-8 mt-4">
+        <div className="flex flex-col items-center lg:items-start justify-center gap-8 pb-8 lg:px-8 mt-4 font-medium">
           <h1 className="text-4xl font-bold text-zinc-800">Olá_mundo!</h1>
 
-          <div className="divide-y-8 divide-transparent text-zinc-800 w-full text-sm md:text-base">
+          <div className="divide-y-8 divide-transparent text-zinc-800 text-sm md:text-base">
             <p>
               Meu nome é Bruno, tenho 24 anos e sou{' '}
               <span className="font-semibold">Desenvolvedor Web.</span>
-            </p>
-
-            <p>
-              Atualmente estou estudando{' '}
-              <span className="font-semibold">React e Tailwind.</span> Este
-              projeto é o resultado do meu conhecimento.
             </p>
 
             <p>
@@ -38,47 +32,7 @@ function SobreMim() {
               tema de E-Commerce.
             </p>
 
-            <div className="flex gap-2 mt-4 flex-wrap xl:flex-nowrap justify-center lg:justify-start">
-              <a
-                href="https://github.com/focxer"
-                target="_blank"
-                rel="noreferrer"
-                className="flex items-center justify-center gap-1"
-              >
-                <Github className="bg-violet-400 text-zinc-50 p-1 rounded-xl shadow-md" />
-                /focxer
-              </a>
-              <a
-                href="https://www.linkedin.com/in/focxer/"
-                target="_blank"
-                rel="noreferrer"
-                className="flex items-center justify-center gap-1"
-              >
-                <LinkedinIcon className="bg-violet-400 text-zinc-50 p-1 rounded-xl shadow-md" />
-                /focxer
-              </a>
-              <a
-                href="mailto:focxer@hotmail.com"
-                target="_blank"
-                rel="noreferrer"
-                className="flex items-center justify-center gap-1"
-              >
-                <MailIcon className="bg-violet-400 text-zinc-50 p-1 rounded-xl shadow-md" />
-                focxer@hotmail.com
-              </a>
-            </div>
-
-            <div className="mt-4 flex justify-center lg:justify-start animate-bounce">
-              <a
-                href="https://drive.google.com/file/d/1RaczEghhlWWC4GLf7k9UZ28xLIhwWNvR/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
-                className="flex gap-1 items-center text-blue-400 hover:text-blue-600 w-fit"
-              >
-                <Download />
-                Download CV
-              </a>
-            </div>
+            <Socials />
           </div>
         </div>
       </div>

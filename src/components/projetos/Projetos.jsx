@@ -5,13 +5,15 @@ import Logo from '../../assets/projects.webp'
 function Projetos() {
   return (
     <>
-      <div className="bg-zinc-50 shadow-lg rounded-b-lg">
-        <div className="bg-violet-400 flex justify-center items-center font-semibold text-zinc-50 text-2xl p-4 rounded-t-xl">
-          <h2>Projetos</h2>
+      <div className="bg-white mx-4 pb-8 px-4">
+        <div className="flex justify-center items-center bg-violet-400">
+          <h2 className="text-center font-semibold text-white text-lg md:text-3xl p-4">
+            Projetos em Destaque
+          </h2>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 justify-between lg gap-8 p-8">
-          <div className="flex justify-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 lg gap-8">
+          <div className="init-left flex justify-center">
             <img
               src={Logo}
               alt="Imagem dos projetos"
@@ -21,7 +23,7 @@ function Projetos() {
 
           <div className="flex flex-col justify-center items-center xl:items-start gap-4 text-zinc-800">
             <h2 className="text-3xl mb-4 font-bold">Último_projeto!</h2>
-            <p className="text-sm md:text-base">
+            <p className="text-sm md:text-base font-medium text-zinc-800">
               Novo design para o site da empresa Rhowert. Utilizei HTML e CSS,
               foi uma proposta feita por mim após notar a necessidade de
               responsividade e alteração no contraste sem fugir do padrão das
