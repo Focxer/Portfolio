@@ -15,7 +15,7 @@ function Contato() {
             method="post"
             className="flex flex-col items-center justify-center gap-8 px-8 md:px-12 py-12 bg-white rounded-lg shadow-md lg:w-1/3"
           >
-            <h1 className="init-left text-4xl md:text-5xl font-bold font-pacifico text-violet-500">
+            <h1 className="init-right text-4xl md:text-5xl font-bold font-pacifico text-violet-500">
               Recados
             </h1>
 
