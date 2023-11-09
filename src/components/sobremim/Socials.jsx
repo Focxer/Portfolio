@@ -36,7 +36,7 @@ function Socials() {
 
       <div className="mt-4 flex justify-center lg:justify-start">
         <a
-          href="https://drive.google.com/file/d/1RaczEghhlWWC4GLf7k9UZ28xLIhwWNvR/view?usp=sharing"
+          href="https://drive.google.com/file/d/1h6usSi2B0zrBTbjI-Qg1Yeyh738CCWB0/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
           className="flex gap-1 items-center text-blue-400 hover:text-blue-600 w-fit"
