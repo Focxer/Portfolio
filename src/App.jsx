@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       <Header />
-      <div className="mt-6 w-full max-w-[1200px]">
+      <div className="mt-2 lg:mt-6 w-full max-w-[1200px]">
         <Main />
       </div>
     </>

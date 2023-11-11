@@ -8,13 +8,13 @@ import react from '../../assets/linguagens-icons/react.svg'
 function Linguagens() {
   return (
     <>
-      <div className="pb-4 hover:cursor-default">
-        <div className="flex justify-center items-center mb-4 bg-violet-400 mx-4">
+      <div className="pb-6 hover:cursor-default">
+        <div className="flex justify-center items-center mb-8 bg-violet-400 mx-2">
           <h2 className="text-center font-semibold text-white text-lg md:text-3xl p-4">
             Linguagens e Tecnologias
           </h2>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 p-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 m-2">
           {/* HTML Section */}
           <div className="init-bottom flex flex-col items-center gap-6 bg-white rounded-lg shadow-md hover:scale-100 md:hover:scale-105 duration-150">
             <div className="bg-zinc-200 w-full flex justify-center py-4 rounded-t-lg">

@@ -3,7 +3,7 @@ import Socials from '../sobremim/Socials'
 function Contato() {
   return (
     <>
-      <div className="mx-4 bg-white pb-8">
+      <div className="mx-2 bg-white pb-8">
         <div className="flex justify-center items-center bg-violet-400 mb-8">
           <h2 className="text-center font-semibold text-white text-lg md:text-3xl p-4">
             Fale Comigo

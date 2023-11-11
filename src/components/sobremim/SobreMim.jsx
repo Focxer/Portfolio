@@ -6,7 +6,7 @@ function SobreMim() {
     <>
       <div
         id="__sobremim"
-        className="grid grid-cols-1 lg:grid-cols-2 justify-between gap-4 scroll-m-16 px-4 lg:px-0 bg-white mx-4"
+        className="grid grid-cols-1 lg:grid-cols-2 justify-between gap-4 scroll-m-16 lg:px-0 bg-white mx-2"
       >
         <img
           src={Logo}
@@ -14,7 +14,7 @@ function SobreMim() {
           className="init-left w-full h-full md:max-w-[480px] max-h-[480px]"
         />
 
-        <div className="flex flex-col items-center lg:items-start justify-center gap-8 pb-8 lg:px-8 mt-4 font-medium">
+        <div className="flex flex-col items-center lg:items-start justify-center gap-8 pb-8 px-4 lg:px-8 mt-4 font-medium">
           <h1 className="text-4xl font-bold text-zinc-800">Olá mundo!</h1>
 
           <div className="divide-y-8 divide-transparent text-zinc-600 text-sm md:text-base">
