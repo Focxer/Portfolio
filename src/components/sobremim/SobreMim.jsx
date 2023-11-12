@@ -6,15 +6,15 @@ function SobreMim() {
     <>
       <div
         id="__sobremim"
-        className="grid grid-cols-1 lg:grid-cols-2 justify-between gap-4 scroll-m-16 lg:px-0 bg-white mx-2"
+        className="flex flex-col lg:flex-row gap-8 items-center justify-between scroll-m-16 bg-white mx-2"
       >
         <img
           src={Logo}
           alt="Main image"
-          className="init-left w-full h-full md:max-w-[480px] max-h-[480px]"
+          className="init-left w-full h-56 md:h-96 lg:h-full object-cover lg:max-w-[480px] max-h-[480px]"
         />
 
-        <div className="flex flex-col items-center lg:items-start justify-center gap-8 pb-8 px-4 lg:px-8 mt-4 font-medium">
+        <div className="flex flex-col items-center lg:items-start justify-center gap-8 pb-8 px-4 lg:px-8 font-medium lg:max-w-[600px]">
           <h1 className="text-4xl font-bold text-zinc-800">Olá mundo!</h1>
 
           <div className="divide-y-8 divide-transparent text-zinc-600 text-sm md:text-base">

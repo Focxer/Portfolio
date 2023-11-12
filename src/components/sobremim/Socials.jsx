@@ -4,7 +4,7 @@ import { Download, Github, LinkedinIcon, MailIcon } from 'lucide-react'
 function Socials() {
   return (
     <>
-      <div className="flex gap-2 mt-4 flex-wrap xl:flex-nowrap justify-center lg:justify-start">
+      <div className="flex gap-2 mt-4 flex-wrap lg:flex-nowrap justify-center lg:justify-start">
         <a
           href="https://github.com/focxer"
           target="_blank"
