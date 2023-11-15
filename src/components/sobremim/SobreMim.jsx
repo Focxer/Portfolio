@@ -15,7 +15,7 @@ function SobreMim() {
         />
 
         <div className="flex flex-col items-center lg:items-start justify-center gap-8 pb-8 px-4 lg:px-8 font-medium lg:max-w-[600px]">
-          <h1 className="text-4xl font-bold text-zinc-800">Olá mundo!</h1>
+          <h1 className="text-3xl font-bold text-zinc-800">Olá mundo!</h1>
 
           <div className="divide-y-8 divide-transparent text-zinc-600 text-sm md:text-base">
             <p>
