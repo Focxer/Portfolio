@@ -14,7 +14,7 @@ function menuToggle() {
 function Navbar() {
   return (
     <>
-      <nav className="hidden md:flex gap-4 text-zinc-500 font-semibold">
+      <nav className="hidden md:flex gap-6 text-zinc-500 font-semibold">
         <HashLink
           smooth
           to="#__sobremim"
