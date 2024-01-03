@@ -25,7 +25,6 @@ function Linguagens() {
               />
             </div>
             <div className="flex flex-col gap-4 px-8 pb-12 text-left">
-              <p className="text-zinc-700 font-medium">☆ Intermediário</p>
               <h2 className="text-2xl text-[#ff6d00] font-bold">HTML 5</h2>
               <p className="text-zinc-600">
                 Código bem estruturado, seguindo a semântica do HTML. Busco
@@ -45,7 +44,6 @@ function Linguagens() {
               />
             </div>
             <div className="flex flex-col gap-4 px-8 pb-12 text-left">
-              <p className="text-zinc-700 font-medium">☆ Intermediário</p>
               <h2 className="text-2xl text-[#35c1f1] font-bold">CSS 3</h2>
               <p className="text-zinc-600">
                 A responsividade de um site é fundamental para a experiência do
@@ -65,10 +63,9 @@ function Linguagens() {
               />
             </div>
             <div className="flex flex-col gap-4 px-8 pb-12 text-left">
-              <p className="text-zinc-700 font-medium">☆ Básico</p>
               <h2 className="text-2xl text-[#ffd600] font-bold">JavaScript</h2>
               <p className="text-zinc-600">
-                Consigo elaborar alguns funções de baixa complexidade, algumas
+                Consigo elaborar funções de baixa complexidade, algumas
                 alterações na DOM como cores, display, classes, etc. Tenho uma
                 boa lógica de programação e disposição para aprender mais.
               </p>
@@ -85,7 +82,6 @@ function Linguagens() {
               />
             </div>
             <div className="flex flex-col gap-4 px-8 pb-12 text-left">
-              <p className="text-zinc-700 font-medium">☆ Básico</p>
               <h2 className="text-2xl text-[#b6a8c8] font-bold">PHP</h2>
               <p className="text-zinc-600">
                 Sei fazer algumas rotinas básicas, no meu TCC de E-Commerce o
@@ -104,7 +100,6 @@ function Linguagens() {
               </div>
             </div>
             <div className="flex flex-col gap-4 px-8 pb-12 text-left">
-              <p className="text-zinc-700 font-medium">☆ Básico</p>
               <h2 className="text-2xl text-[#00796b] font-bold">MySQL</h2>
               <p className="text-zinc-600">
                 Consigo fazer CRUD com PHP, algumas querys simples. Não costumo
@@ -126,7 +121,6 @@ function Linguagens() {
               </div>
             </div>
             <div className="flex flex-col gap-4 px-8 pb-12 text-left">
-              <p className="text-zinc-700 font-medium">☆ Básico</p>
               <h2 className="text-2xl text-[#00d8ff] font-bold">ReactJS</h2>
               <p className="text-zinc-600">
                 Atualmente estou estudando ReactJS, este é o meu primeiro

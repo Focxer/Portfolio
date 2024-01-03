@@ -12,7 +12,7 @@ function Projetos() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 lg gap-8 mx-4">
+        <div className="grid grid-cols-1 lg:grid-cols-2 lg gap-8 mx-4 py-10">
           <div className="init-left flex justify-center">
             <img
               src={Logo}
@@ -28,8 +28,8 @@ function Projetos() {
             <p className="text-sm md:text-base font-medium text-zinc-600">
               Novo design para o site da empresa Rhowert. Utilizei HTML e CSS,
               foi uma proposta feita por mim após notar a necessidade de
-              responsividade e alteração no contraste sem fugir do padrão das
-              cores da empresa.
+              responsividade e alteração no contraste sem fugir muito do atual
+              design da empresa.
             </p>
 
             <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-2 items-center mt-6 w-full">

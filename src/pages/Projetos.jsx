@@ -90,7 +90,7 @@ function Projetos() {
               <Layout className="w-1/2 h-1/2 text-zinc-400" />
               <h2>MultiDados TI</h2>
               <div className="flex flex-col gap-2 items-center">
-                <span className="bg-violet-200 rounded-lg flex items-center gap-1 text-zinc-50 font-semibold py-2 px-6 hover:bg-violet-500 shadow-md cursor-not-allowed hover:scale-105 duration-200">
+                <span className="bg-violet-200 rounded-lg flex items-center gap-1 text-zinc-50 font-semibold py-2 px-6 shadow-md cursor-not-allowed hover:scale-105 duration-200">
                   <ExternalLink /> Indisponível
                 </span>
                 <a
