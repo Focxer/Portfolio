@@ -1,4 +1,4 @@
-# Bem-vindo ao Bruno Dev
+# Boas vindas ao Bruno Dev!
 _< Desenvolvido com React e Tailwind />_
 
 Meu nome é Bruno, tenho 25 anos e sou Desenvolvedor Web.
