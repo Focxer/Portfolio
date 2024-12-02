@@ -10,7 +10,7 @@ function Observer() {
           entry.target.classList.toggle('init-left-off', entry.isIntersecting)
         })
       },
-      { threshold: 0.3 },
+      { threshold: 0.2 },
     )
 
     elements.forEach((e) => {
@@ -27,7 +27,7 @@ function Observer() {
           entry.target.classList.toggle('init-right-off', entry.isIntersecting)
         })
       },
-      { threshold: 0.3 },
+      { threshold: 0.2 },
     )
 
     elements.forEach((e) => {
@@ -44,7 +44,7 @@ function Observer() {
           entry.target.classList.toggle('init-bottom-off', entry.isIntersecting)
         })
       },
-      { threshold: 0.3 },
+      { threshold: 0.2 },
     )
 
     elements.forEach((e) => {
