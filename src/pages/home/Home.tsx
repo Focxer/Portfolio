@@ -12,7 +12,7 @@ function Home() {
     <>
       <ScrollRestoration />
       <Header />
-      <div className="max-w-[1200px] mt-6">
+      <div className="max-w-[1200px] mt-6 w-full">
         <div className="mb-6">
           <AboutMe />
         </div>

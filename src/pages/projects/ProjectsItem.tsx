@@ -13,7 +13,7 @@ const ProjectsItem = (props: IProjectsItem) => {
     <>
       <div className="init-bottom flex flex-col hover:scale-105 drop-shadow-lg duration-200">
         <img src={props.icon} className="object-contain" />
-        <div className="flex flex-col p-4 gap-2 bg-white">
+        <div className="flex flex-col py-4 px-8 gap-2 bg-white">
           <h2 className="font-semibold text-lg">{props.title}</h2>
           <p className="text-zinc-800">{props.text}</p>
         </div>
