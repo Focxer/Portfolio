@@ -16,7 +16,7 @@ function Projects() {
       <Header />
       <div className="max-w-[1200px] mt-6 w-full">
         <Divider text="Projetos" />
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-2">
           <ProjectsItem
             icon={olivaMetal}
             title="Oliva Metal"
@@ -36,7 +36,7 @@ function Projects() {
             title="Linktree NLW 2022"
             link="https://focxer.github.io/NLW22/"
             code="https://github.com/Focxer/NLW22"
-            text="Projeto feito na Next Level Week 2022 da Rocketseat visando praticar e aprimorar o conhecimento sobre HTML e CSS básicos."
+            text="Projeto feito na Next Level Week 2022 da Rocketseat visando colocar em prática CSS e HTML básico."
           ></ProjectsItem>
           <ProjectsItem
             icon={calculator}
