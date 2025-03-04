@@ -1,3 +1,5 @@
+import { FromBottom } from "../../animations";
+
 type ITechnologies = {
   icon: string;
   text: string;
@@ -9,7 +11,7 @@ type ITechnologies = {
 const TechnologiesItem = (props: ITechnologies) => {
   return (
     <>
-      <div className="init-bottom flex flex-col items-center gap-6 bg-white rounded hover:scale-100 md:hover:scale-105 duration-150 drop-shadow-md">
+      <FromBottom className="flex flex-col items-center gap-6 rounded hover:scale-100 md:hover:scale-105 drop-shadow-md overflow-hidden bg-white">
         <div className="bg-zinc-200 w-full flex justify-center py-4">
           <img
             src={props.icon}
@@ -21,7 +23,7 @@ const TechnologiesItem = (props: ITechnologies) => {
           <h2 className={`${props.color} text-2xl font-bold`}>{props.title}</h2>
           <p className="text-zinc-600">{props.text}</p>
         </div>
-      </div>
+      </FromBottom>
     </>
   );
 };

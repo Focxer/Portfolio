@@ -3,7 +3,6 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import { createHashRouter, RouterProvider } from "react-router-dom";
 import { Projects } from "./pages";
-import "./components/Observer.css";
 import { Home } from "./pages/home";
 
 const router = createHashRouter([

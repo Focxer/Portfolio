@@ -1,25 +1,30 @@
 import { Download, Github, LinkedinIcon, MailIcon } from "lucide-react";
 import SocialsItem from "./SocialsItem";
+import { Sequence } from "../../animations";
 
 const Socials = () => {
+  const socials = [
+    { link: "https://github.com/focxer", icon: Github, text: "/focxer" },
+    {
+      link: "https://www.linkedin.com/in/focxer/",
+      icon: LinkedinIcon,
+      text: "/focxer",
+    },
+    {
+      link: "mailto:focxer@hotmail.com",
+      icon: MailIcon,
+      text: "focxer@hotmail.com",
+    },
+  ];
+
   return (
     <>
       <div className="w-full flex gap-2 md:gap-4 flex-wrap items-center justify-center lg:justify-start">
-        <SocialsItem
-          link="https://github.com/focxer"
-          icon={Github}
-          text="/focxer"
-        ></SocialsItem>
-        <SocialsItem
-          link="https://www.linkedin.com/in/focxer/"
-          icon={LinkedinIcon}
-          text="/focxer"
-        ></SocialsItem>
-        <SocialsItem
-          link="mailto:focxer@hotmail.com"
-          icon={MailIcon}
-          text="focxer@hotmail.com"
-        ></SocialsItem>
+        {socials.map((social, index) => (
+          <Sequence key={social.link} duration={0.3 + index * 0.3}>
+            <SocialsItem {...social} />
+          </Sequence>
+        ))}
       </div>
 
       <div className="mt-4 flex justify-center lg:justify-start">

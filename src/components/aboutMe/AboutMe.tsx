@@ -1,3 +1,4 @@
+import { FromLeft } from "../../animations";
 import Logo from "../../assets/main-image.webp";
 import Socials from "../socials/Socials.js";
 
@@ -6,13 +7,15 @@ function AboutMe() {
     <>
       <div
         id="__sobremim"
-        className="flex flex-col lg:flex-row gap-8 items-center justify-between scroll-m-16 bg-white mx-2"
+        className="flex flex-col lg:flex-row gap-8 items-center justify-between scroll-m-16 bg-white mx-2 overflow-hidden"
       >
-        <img
-          src={Logo}
-          alt="Main image"
-          className="init-left w-full h-56 md:h-96 lg:h-full object-cover lg:max-w-[480px] max-h-[480px]"
-        />
+        <FromLeft>
+          <img
+            src={Logo}
+            alt="Main image"
+            className="w-full h-56 md:h-96 lg:h-full object-cover lg:max-w-[480px] max-h-[480px]"
+          />
+        </FromLeft>
 
         <div className="flex flex-col items-center lg:items-start justify-center gap-8 pb-8 px-4 lg:px-8 font-medium lg:max-w-[600px]">
           <h1 className="text-3xl font-bold text-zinc-800">Olá mundo!</h1>

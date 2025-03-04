@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { ExternalLink, Layers } from "lucide-react";
 import Logo from "../../assets/projects.webp";
 import { Divider } from "../divider";
+import { FromLeft } from "../../animations";
 
 const mainProjectLink = "https://focxer.github.io/olivaMetal/";
 
@@ -11,13 +12,13 @@ function Projects() {
       <div className="bg-white mx-2 pb-8">
         <Divider text="Projetos em Destaque" />
         <div className="grid grid-cols-1 lg:grid-cols-2 lg gap-8 mx-4 py-10">
-          <div className="init-left flex justify-center">
+          <FromLeft className="flex justify-center">
             <img
               src={Logo}
               alt="Imagem dos projetos"
               className="w-full h-full md:max-w-[480px] max-h-[480px]"
             />
-          </div>
+          </FromLeft>
 
           <div className="flex flex-col justify-center items-center xl:items-start gap-4">
             <h2 className="text-3xl mb-4 font-bold text-zinc-800">
