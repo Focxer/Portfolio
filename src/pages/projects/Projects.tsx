@@ -7,6 +7,7 @@ import { Header } from "../../containers";
 import { Divider } from "../../components/divider";
 import { ScrollRestoration } from "react-router-dom";
 import { FromLeft } from "../../animations";
+import Loading from "../../animations/Loading";
 
 const Projects = () => {
   const projects = [
@@ -42,6 +43,7 @@ const Projects = () => {
 
   return (
     <>
+      <Loading />
       <ScrollRestoration />
       <Header />
       <div className="max-w-[1200px] mt-20 w-full">

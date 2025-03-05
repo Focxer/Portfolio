@@ -4,10 +4,12 @@ import Technologies from "../../components/technologies/Technologies";
 import { Header } from "../../containers";
 import { ScrollRestoration } from "react-router-dom";
 import Projects from "../../components/projects/Projects";
+import Loading from "../../animations/Loading";
 
 function Home() {
   return (
     <>
+      <Loading />
       <ScrollRestoration />
       <Header />
       <div className="max-w-[1200px] mt-20 w-full">

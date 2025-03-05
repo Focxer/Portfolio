@@ -11,7 +11,7 @@ type IProjectsItem = {
 const ProjectsItem = (props: IProjectsItem) => {
   return (
     <>
-      <div className="flex flex-col hover:scale-105 drop-shadow-lg duration-200">
+      <div className="flex flex-col drop-shadow-lg">
         <img src={props.icon} className="object-contain" />
         <div className="flex flex-col py-4 px-8 gap-2 bg-white">
           <h2 className="font-semibold text-lg">{props.title}</h2>
