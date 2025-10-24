@@ -9,7 +9,6 @@ import Loading from "../../animations/Loading";
 function Home() {
   return (
     <>
-      <Loading />
       <ScrollRestoration />
       <Header />
       <div className="max-w-[1200px] mt-20 w-full">
