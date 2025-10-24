@@ -81,7 +81,7 @@ const Technologies = () => {
     <div className="mx-2">
       <Divider text="Linguagens e Tecnologias" />
       <div className="pb-6 hover:cursor-default">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 m-2">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {technologies.map((tech) => (
             <TechnologiesItem key={tech.title} {...tech} />
           ))}
