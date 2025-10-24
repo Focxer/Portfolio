@@ -44,7 +44,7 @@ function AboutMe() {
               </a>
               como{" "}
               <span className="font-semibold text-zinc-800">
-                Desenvolvedor FullStack Jr.
+                Desenvolvedor FullStack Pleno.
               </span>{" "}
               mas faço alguns freelas por ai.
             </p>
