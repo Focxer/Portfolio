@@ -3,6 +3,19 @@ import Logo from "../../assets/main-image.webp";
 import Socials from "../socials/Socials.js";
 
 function AboutMe() {
+  const birthDate = new Date(1998, 11, 6);
+
+  const today = new Date();
+
+  let age = today.getFullYear() - birthDate.getFullYear();
+
+  const hadBirthdayThisYear =
+    today.getMonth() > birthDate.getMonth() ||
+    (today.getMonth() === birthDate.getMonth() &&
+      today.getDate() >= birthDate.getDate());
+
+  if (!hadBirthdayThisYear) age--;
+
   return (
     <>
       <div
@@ -22,7 +35,7 @@ function AboutMe() {
 
           <div className="divide-y-8 divide-transparent text-zinc-600 text-sm md:text-base">
             <p>
-              Meu nome é Bruno, tenho 26 anos e sou{" "}
+              Meu nome é Bruno, tenho {age} anos e sou{" "}
               <span className="font-semibold text-zinc-800">
                 Desenvolvedor Web Fullstack.
               </span>
